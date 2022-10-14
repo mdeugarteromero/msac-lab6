@@ -20,6 +20,15 @@
 
         git status
 
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   equipment/appliances.txt
+        modified:   fruits.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
 5. Can you commit both of the changed files in a single commit?
 
 6. After you do so, check that you have a clean working directory by running `git status`, and pasting the output here
