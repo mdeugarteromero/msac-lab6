@@ -35,8 +35,10 @@
         git status
 
 10. Which of the steps could be omitted?
+The git status checking so often.
 
 11. Why might it be a bad idea to omit them?
+It is always good to double check to make sure what you commit is committed or vice versa. 
 
 12. Repeat the above steps to add a new file with the name `vegetables.txt`
 
