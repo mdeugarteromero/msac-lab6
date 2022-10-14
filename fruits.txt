@@ -3,4 +3,3 @@ banana
 tomato
 
 blueberry
-strawberry
