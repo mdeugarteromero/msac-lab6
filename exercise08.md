@@ -16,6 +16,8 @@
 
         git diff --staged
 
+Nothing is returned.
+
 7. Add one of your changed files to the index
 
         git commit add <changed file>
@@ -24,6 +26,9 @@
 
         git diff
         git diff --staged
+
+git diff shows all the changes that are not staged.
+git diff --staged shows all the changes that are staged.
 
 9. Add the other changed file to the index
 
@@ -34,6 +39,9 @@
         git diff
         git diff --staged
 
+git diff does not show anything since all file changes are staged.
+git diff --staged shows all file changes that are staged. 
+
 11. Commit the changes
 
 12. Check that your working directory is clean
@@ -43,5 +51,7 @@
 14. Does the new untracked file show up in git diff?
 
         git diff
+
+The new untrack file does not show up in git diff.
 
 15. Add and commit the new file
