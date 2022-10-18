@@ -26,6 +26,9 @@
 
         git cat-file -t <hash>
 
+commit
+
 9. Examine the contents of the parent and its tree
 
 10. Do the trees you looked at have any matching hashes listed?
+Within the tree there were no matching hashes. Comparing the tree hashes with the commit hashes there were also no matching hashes. 
